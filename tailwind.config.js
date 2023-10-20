@@ -8,6 +8,9 @@ export default {
         "secondary-blue": "#00B5B5",
         "main-cream": "#FFFFF0",
       },
+      fontFamily: {
+        almarai: "Almarai",
+      },
     },
   },
   plugins: [],
