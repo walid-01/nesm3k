@@ -11,7 +11,20 @@ const Testimonies = () => {
             <h2>STARS</h2>
           </div>
           <div>
-            <p className="text-7xl h-14 text-blue-950">&#x275D;</p>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="16"
+                viewBox="0 0 23 16"
+                fill="none"
+              >
+                <path
+                  d="M8 0L4.8 6.4H9.6V16H0V6.4L3.2 0H8ZM20.8 0L17.6 6.4H22.4V16H12.8V6.4L16 0H20.8Z"
+                  fill="#3E5E79"
+                />
+              </svg>
+            </div>
             <p className="font-montserrat px-8">
               Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
               lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
@@ -25,7 +38,20 @@ const Testimonies = () => {
               condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
               amet magna.
             </p>
-            <p className="text-7xl text-right text-blue-950">&#x275E;</p>
+            <div className="flex justify-end">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="16"
+                viewBox="0 0 23 16"
+                fill="none"
+              >
+                <path
+                  d="M14.4 16H19.2L22.4 9.6V0H12.8V9.6H17.6M1.6 16H6.4L9.6 9.6V0H0V9.6H4.8L1.6 16Z"
+                  fill="#3E5E79"
+                />
+              </svg>
+            </div>
           </div>
           <div className="flex items-center h-14 gap-8">
             <div className="w-1/5">
