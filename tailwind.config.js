@@ -7,6 +7,7 @@ export default {
         "main-night-blue": "#03224C",
         "secondary-blue": "#00B5B5",
         "main-cream": "#FFFFF0",
+        "testimony-gray": "#FAFAFA",
       },
       fontFamily: {
         almarai: "Almarai",
