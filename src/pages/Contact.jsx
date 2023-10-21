@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
-      <div className="bg-main-cream flex flex-col justify-center pt-44 px-6 lg:px-20 w-full">
+    <div className="bg-main-cream">
+      <div className=" flex flex-col justify-center pt-44 px-6 lg:px-20 w-full">
         {/* Message Form*/}
         <form
           action=""
@@ -16,7 +16,7 @@ const Contact = () => {
                 type="text"
                 placeholder="e.g yacine yacine"
                 name="name"
-                className="text-[15px] leading-5 border-solid border-2 border-[#1C1C1C] h-16 px-4 py-5"
+                className="leading-5 border-solid border-2 border-[#1C1C1C] h-16 px-4 py-5"
               />
             </div>
             <div className="flex flex-col gap-y-4 lg:w-[48%] w-full">
@@ -44,7 +44,7 @@ const Contact = () => {
         </form>
 
         <h2 className="text-center text-4xl font-extrabold text-main-night-blue mt-20">
-          Contact Us{" "}
+          Contact Us
         </h2>
         <img
           src="https://yourimageshare.com/ib/0Px8IhVgmf.webp"
@@ -258,6 +258,9 @@ const Contact = () => {
           </svg>
         </div>
       </div>
+      <h2 className="text-center text-4xl font-extrabold text-main-night-blue pt-6 mb-10">
+        Location
+      </h2>
       <img
         src="https://yourimageshare.com/ib/fhCVSzRuW5.webp"
         alt="google map"
