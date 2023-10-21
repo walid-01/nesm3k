@@ -3,20 +3,18 @@ import "../styles/Home.css";
 
 const HomeIntro = () => {
   return (
-    <>
-      <div className="absolute w-1/4 flex flex-col gap-10 top-1/4 left-[15%]">
-        <h1 className="text-5xl font-extrabold">
+    <div className="w-full gap-10 flex items-center justify-center lg:flex-row flex-col-reverse lg:gap-0">
+      <div className="w-4/6 flex flex-col gap-4 text-center lg:w-1/3 lg:gap-10">
+        <h1 className="text-5xl font-extrabold md:text-left ">
           <span className="font-montserrat">Nsm3k</span>{" "}
           <span className="font-almarai">نسمعك</span>
         </h1>
-        <div>
-          <h1 className="text-right text-4xl font-bold font-almarai">
-            .الخصوصية أوّلا، ودائما
-          </h1>
-          <p className="font-almarai text-center text-xl">
-            مرحبا بك مع نسمعك، رفيقك في الحصول على المساعدة النفسية الاجتماعية
-          </p>
-        </div>
+        <h1 className="text-4xl font-bold font-almarai md:text-right">
+          الخصوصية أوّلا، ودائما
+        </h1>
+        <p className="font-almarai text-center text-xl md:text-right">
+          مرحبا بك مع نسمعك، رفيقك في الحصول على المساعدة النفسية الاجتماعية
+        </p>
         <div className="flex flex-col justify-center items-center">
           <h2 className="font-montserrat font-bold text-2xl text-center">
             INSTALL NOW
@@ -30,7 +28,7 @@ const HomeIntro = () => {
         </div>
       </div>
       <div id="home-intro" className="flex"></div>
-    </>
+    </div>
   );
 };
 

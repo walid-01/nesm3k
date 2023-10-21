@@ -8,6 +8,7 @@ export default {
         "secondary-blue": "#00B5B5",
         "main-cream": "#FFFFF0",
         "testimony-gray": "#FAFAFA",
+        "text-gray": "#333333",
       },
       fontFamily: {
         almarai: "Almarai",

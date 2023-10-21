@@ -2,10 +2,10 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-16">
+    <div className="flex flex-col items-center justify-center gap-16 w-full">
       <h1 className="text-main-night-blue text-5xl font-bold">Our Services</h1>
-      <div className="flex justify-evenly">
-        <div className="bg-main-night-blue flex flex-col items-center justify-center gap-10 w-1/4 p-10 rounded-lg">
+      <div className="flex justify-evenly gap-20 flex-wrap">
+        <div className="bg-main-night-blue flex flex-col items-center justify-between gap-10 max-w-sm p-10 rounded-lg">
           <div className="w-1/3">
             <img src="https://yourimageshare.com/ib/lHq3dEccGP.webp" alt="" />
           </div>
@@ -20,13 +20,13 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-main-night-blue flex flex-col items-center justify-center gap-10 w-1/4 p-10 rounded-lg">
+        <div className="bg-main-night-blue flex flex-col items-center justify-between gap-10 max-w-sm p-10 rounded-lg">
           <div className="w-1/3">
             <img src="https://yourimageshare.com/ib/fhYFZn8zKq.webp" alt="" />
           </div>
           <div className="bg-zinc-300 flex flex-col items-center justify-center rounded-lg p-6">
             <h2 className="font-bold font-montserrat text-2xl text-center w-44 mb-5">
-              appointement reservation{" "}
+              Appointement reservation{" "}
             </h2>
             <p className="text-center font-montserrat text-lg">
               In-person meetings with experienced therapists at a location near
@@ -35,7 +35,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-main-night-blue flex flex-col items-center justify-center gap-10 w-1/4 p-10 rounded-lg h-full ">
+        <div className="bg-main-night-blue flex flex-col items-center justify-between gap-10 max-w-sm p-10 rounded-lg">
           <div className="w-1/3">
             <img src="https://yourimageshare.com/ib/BDQJuv5n8G.webp" alt="" />
           </div>
