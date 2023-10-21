@@ -7,7 +7,7 @@ const Footer = () => {
       className="bg-main-night-blue text-white flex items-center justify-center flex-col"
     >
       <div className="px-20 py-10">
-        <h1 className="text-3xl font-medium">Nsm3ek - نسمعك</h1>
+        <h1 className="text-3xl font-medium mb-3">Nsm3ek - نسمعك</h1>
         <div className="flex flex-col lg:justify-between lg:flex-row gap-5 lg:gap-10">
           <p className="leading-[18px] text-justify lg:w-2/6">
             At NSM3EK, we're dedicated to transform mental health care while
